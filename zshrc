@@ -69,7 +69,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-source /usr/local/opt/autoenv/activate.sh
+export DOTFILES=~/dotfiles
+source $DOTFILES/autoenv/activate.sh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
