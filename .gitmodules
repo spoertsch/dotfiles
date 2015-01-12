@@ -1,3 +1,6 @@
 [submodule "autoenv"]
 	path = autoenv
 	url = https://github.com/kennethreitz/autoenv
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen.git
