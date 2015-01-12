@@ -1,0 +1,9 @@
+[user]
+	name = Jan Stieffenhofer
+	email = spoertsch@gmail.com
+[core]
+  editor = vim
+[color]
+	ui = always
+[push]
+	default = matching
