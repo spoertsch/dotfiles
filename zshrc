@@ -19,6 +19,7 @@ antigen-bundle vagrant
 antigen-bundle docker
 antigen-bundle scala
 antigen-bundle sbt
+antigen-bundle brew
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
 antigen bundle sharat87/autoenv   
