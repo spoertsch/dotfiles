@@ -30,4 +30,7 @@ export DOTFILES=~/dotfiles
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# alias
+alias gsl="git-smart-log"
+
 antigen-apply
