@@ -1,0 +1,3 @@
+# git alias
+alias gsp="git-smart-pull"
+alias gsl="git-smart-log"

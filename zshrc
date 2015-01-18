@@ -11,9 +11,7 @@ source $DOTFILES/antigen/antigen.zsh
 antigen-use oh-my-zsh
 antigen-bundle git
  
-if [ "$OSTYPE"="darwin11.0" ]; then
-    antigen-bundle osx
-  fi
+[[ "$OSTYPE" == "darwin"* ]] && antigen-bundle osx
    
 antigen-bundle vagrant
 antigen-bundle docker
@@ -25,14 +23,10 @@ antigen-bundle zsh-users/zsh-history-substring-search
 antigen bundle sharat87/autoenv   
 antigen-bundle extract
 
-
 antigen-theme ys
    
-export DOTFILES=~/dotfiles
-
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# alias
-alias gsl="git-smart-log"
+[ -e "${HOME}/.zsh_alias" ] && source "${HOME}/.zsh_alias"
 
 antigen-apply
