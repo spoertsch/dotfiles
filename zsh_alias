@@ -1,3 +1,8 @@
 # git alias
 alias gsp="git-smart-pull"
 alias gsl="git-smart-log"
+
+# vaamo
+alias vaamo="cd $HOME/dev/vaamo"
+alias vb="cd $HOME/dev/vaamo/vaamo-backend"
+alias vf="cd $HOME/dev/vaamo/vaamo-web-frontend"
