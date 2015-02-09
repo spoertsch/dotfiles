@@ -30,3 +30,5 @@ export PATH=$PATH:$HOME/bin:/usr/local/bin
 [ -e "${HOME}/.zsh_alias" ] && source "${HOME}/.zsh_alias"
 
 antigen-apply
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

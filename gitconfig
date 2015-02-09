@@ -7,3 +7,5 @@
 	ui = always
 [push]
 	default = matching
+[alias]
+  gh = ! git log --reverse --author=\"`git config user.name`\" --pretty=format:\"[%s](https://github.com/`git config remote.origin.url | gsed -e 's/.*:\\(.*\\).git/\\1/g'`/commit/%H)\" --since '1 week ago' $@
